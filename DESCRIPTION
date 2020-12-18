@@ -1,0 +1,19 @@
+Package: foofactors
+Title: Ensures that concatenations of factors is still a factor
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Bryan",
+           family = "Blette",
+           role = c("aut", "cre"),
+           email = "first.last@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Concatenates factor variables and returns a factor variable. Adding a second sentence to resolve the note frome check().
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat
+Imports: 
+    forcats
